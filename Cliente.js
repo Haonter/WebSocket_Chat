@@ -1,5 +1,5 @@
 // Obtener el host y puerto del entorno proporcionado por Vercel
-const host = process.env.VERCEL_URL || 'localhost';
+const host = process.env.HOST || 'localhost';
 const port = process.env.PORT || 5501;
 
 // Construir la URL del WebSocket
